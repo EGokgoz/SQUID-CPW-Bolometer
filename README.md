@@ -40,7 +40,7 @@ The main design tasks included:
 ## Technical Report
 
 A detailed description of the design process, simulations and results
-is available in the [Praktikumsbericht](./Praktikumsbericht.pdf).
+is available in the [SQUID_CPW_Bolometer_Report](./SQUID_CPW_Bolometer_Report.pdf).
 
 ## Authors
 
