@@ -1,7 +1,47 @@
-# This project focuses on the design and modeling of a high-sensitivity bolometer operating at cryogenic temperatures (1 K). The device measures incident electromagnetic radiation through resistance changes in a thermally sensitive material.
+# SQUID-CPW Bolometer
 
-# To achieve high sensitivity and efficiency, a superconducting readout system was developed. A SQUID (Superconducting Quantum Interference Device) was designed with a well-coupled input coil to enable precise detection of small changes.
+Design and simulation of a cryogenic bolometer with SQUID-based readout,
+developed as part of the KIT practical course
+*Design und Entwurf von Quantenschaltkreisen*.
 
-# A coplanar waveguide (CPW) was implemented to guide electromagnetic waves to the sensing element. The CPW was developed to selectively transmit frequencies near the target range (6 GHz).
+The project combines microwave resonator design, superconducting circuit
+simulation and layout integration for the detection of electromagnetic
+radiation at cryogenic temperatures.
 
-# The sensing material (gold-palladium) and readout system were integrated within a thermally isolated structure to minimize heat loss and preserve measurement accuracy.
+## Project Overview
+
+The bolometer consists of a frequency-selective CPW resonator coupled to
+a thermally isolated sensing element and a dc-SQUID readout circuit.
+
+<img width="698" height="292" alt="Resonator with coupled capacitors and termination resistor" src="https://github.com/user-attachments/assets/d7da730b-077e-4b14-a25a-3ef0b7c54086" />
+<img width="939" height="394" alt="dc-SQUID circuit with thermal coupling to the waveguide" src="https://github.com/user-attachments/assets/0f3aab9e-b3ca-471c-9a76-f3dc2de4054f" />
+<img width="1027" height="236" alt="Integrated bolometer" src="https://github.com/user-attachments/assets/51eca074-cc97-46ce-b4f7-90017797f73a" />
+
+The main design tasks included:
+
+- Design and EM simulation of a **6 GHz λ/2 CPW resonator** using **Sonnet**
+- Analysis of **characteristic impedance and S-parameters**
+- Design of the **dc-SQUID and inductively coupled input coil** using **KLayout**
+- Calculation of self- and mutual inductances using **InductEx**
+- Simulation of the Josephson-junction circuit using **JSIM**
+- Integration of the complete device layout
+- Evaluation of simulation results using **MATLAB and Python**
+
+## Tools
+
+| Task | Software |
+|---|---|
+| Microwave / EM simulation | Sonnet |
+| SQUID layout | KLayout |
+| Inductance extraction | InductEx |
+| Josephson circuit simulation | JSIM |
+| Data analysis | MATLAB, Python |
+
+## Technical Report
+
+A detailed description of the design process, simulations and results
+is available in the [Praktikumsbericht](./Praktikumsbericht.pdf).
+
+## Authors
+
+Erinç Gökgöz and Pujan Karehroudi
