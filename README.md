@@ -13,9 +13,9 @@ radiation at cryogenic temperatures.
 The bolometer consists of a frequency-selective CPW resonator coupled to
 a thermally isolated sensing element and a dc-SQUID readout circuit.
 
-<img width="698" height="292" alt="Resonator with coupled capacitors and termination resistor" src="https://github.com/user-attachments/assets/d7da730b-077e-4b14-a25a-3ef0b7c54086" />
-<img width="939" height="394" alt="dc-SQUID circuit with thermal coupling to the waveguide" src="https://github.com/user-attachments/assets/0f3aab9e-b3ca-471c-9a76-f3dc2de4054f" />
-<img width="1027" height="236" alt="Integrated bolometer" src="https://github.com/user-attachments/assets/51eca074-cc97-46ce-b4f7-90017797f73a" />
+<img width="700" height="300" alt="Resonator with coupled capacitors and termination resistor" src="https://github.com/user-attachments/assets/d7da730b-077e-4b14-a25a-3ef0b7c54086" />
+<img width="700" height="350" alt="dc-SQUID circuit with thermal coupling to the waveguide" src="https://github.com/user-attachments/assets/0f3aab9e-b3ca-471c-9a76-f3dc2de4054f" />
+<img width="700" height="200" alt="Integrated bolometer" src="https://github.com/user-attachments/assets/51eca074-cc97-46ce-b4f7-90017797f73a" />
 
 The main design tasks included:
 
